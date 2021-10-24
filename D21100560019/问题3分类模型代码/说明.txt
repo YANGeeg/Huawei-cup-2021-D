@@ -1,0 +1,15 @@
+数据处理代码：
+DataZhengli 是得到MLP网络的数据输入形式
+DataCSP是得到MLP网络的数据输入形式
+
+MLP模型代码：
+transformData 用于将原始数据转化成适合oneconv网络的hdf文件，打开后，输入的mat文件名字和DataZhengli 得到的mat一样就可以运行，比较简单,最后得到一个hdf。然后运行train文件，同样的，transformData的hdf文件作为输入，点击运行，会有网络训练集和验证集的分类准确率情况，还会输出测试集预测结果。
+
+
+SVM模型代码：
+
+CSPFeature：运行得到CSP特征，
+SVMpre :运行得到分类情况
+其他代码是辅助代码，如果只需要验证结果，上面两个就可以了
+如：
+cgwanggexunyou：  c  g   网格寻优代码
